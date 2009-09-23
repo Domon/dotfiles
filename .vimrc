@@ -1,3 +1,5 @@
+set nocompatible
+
 set fileencodings=utf-8,big5,euc-jp,gbk,euc-kr,utf-bom,iso8859-1
 set termencoding=utf-8
 
@@ -13,3 +15,6 @@ set incsearch
 set ignorecase
 set smartcase
 set wildmode=longest,list
+
+autocmd FileType ruby setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2 autoindent
+"autocmd FileType html,xml,eruby setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2 autoindent
