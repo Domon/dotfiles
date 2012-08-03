@@ -1,11 +1,13 @@
 [alias]
-  br = branch
-  ci = commit
-  co = checkout
-  df = diff
-  st = status
+	br = branch
+	ci = commit
+	co = checkout
+	df = diff
+	st = status
 [color]
-  branch = auto
-  diff = auto
-  status = auto
-  ui = true
+	ui = true
+[core]
+	excludesfile = ~/.gitignore_global
+[user]
+	name = Chun-wei Kuo
+	email = Dendoh@gmail.com
