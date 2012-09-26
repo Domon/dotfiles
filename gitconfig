@@ -7,8 +7,8 @@
 [color]
 	ui = true
 [core]
-	excludesfile = ~/.gitignore_global
 	editor = vim
+	excludesfile = ~/.gitignore_global
 [user]
-	name = Chun-wei Kuo
 	email = Dendoh@gmail.com
+	name = Chun-wei Kuo
