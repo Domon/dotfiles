@@ -1,6 +1,9 @@
 # Pow
 .powrc
 
+# Powder
+.powder
+
 # Vim
 *.swp
 
