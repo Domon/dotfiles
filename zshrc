@@ -19,6 +19,10 @@ export HIST_EXPIRE_DUPS_FIRST=true  # removes duplicates when history file fills
 # (Homebrew installed) Node.js
 export NODE_PATH=/usr/local/lib/node_modules
 
+# (Homebrew installed) rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 # Locale
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
