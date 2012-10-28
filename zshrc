@@ -5,23 +5,10 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(bundler gem git heroku brew pow powder rails3 ruby rvm)
 source $ZSH/oh-my-zsh.sh
 
-# PATH
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
-
-# Homebrew
-export PATH=/usr/local/bin:$PATH
-
 # Zsh
 export HISTSIZE=1000000
 export SAVEHIST=1000000
 export HIST_EXPIRE_DUPS_FIRST=true  # removes duplicates when history file fills up
-
-# (Homebrew installed) Node.js
-export NODE_PATH=/usr/local/lib/node_modules
-
-# (Homebrew installed) rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Locale
 export LANG="en_US.UTF-8"
@@ -34,6 +21,19 @@ alias rm="rm -i"
 alias ducks='du -cks * | sort -rn | head -11'
 alias g="git status"
 alias vi="mvim"
+
+# PATH
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
+
+# Homebrew
+export PATH=/usr/local/bin:$PATH
+
+# Node.js
+export NODE_PATH=/usr/local/lib/node_modules
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # z
 . `brew --prefix`/etc/profile.d/z.sh
