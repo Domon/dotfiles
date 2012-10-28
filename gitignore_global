@@ -4,6 +4,9 @@
 # Powder
 .powder
 
+# rbenv
+.rbenv-version
+
 # Vim
 *.swp
 
