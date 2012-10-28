@@ -2,7 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 COMPLETION_WAITING_DOTS="true"
-plugins=(bundler gem git heroku brew pow powder rails3 ruby rvm)
+plugins=(bundler gem git heroku brew pow powder rails3 ruby)
 source $ZSH/oh-my-zsh.sh
 
 # Zsh
