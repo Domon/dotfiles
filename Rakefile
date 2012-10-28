@@ -10,6 +10,7 @@ task :install do
   link_file 'gemrc'
   link_file 'gitconfig'
   link_file 'gitignore_global'
+  link_file 'powconfig'
   link_file 'tmux.conf'
   link_file 'zshrc'
 end
