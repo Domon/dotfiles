@@ -32,8 +32,11 @@ export PATH=/usr/local/bin:$PATH
 export NODE_PATH=/usr/local/lib/node_modules
 
 # rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH=$HOME/.rbenv/bin:$PATH
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# My executables
+export PATH=$HOME/bin:$PATH
 
 # z
 . `brew --prefix`/etc/profile.d/z.sh
