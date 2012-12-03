@@ -26,7 +26,7 @@ alias vi="mvim"
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
 
 # Homebrew
-export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # Node.js
 export NODE_PATH=/usr/local/lib/node_modules
