@@ -19,8 +19,11 @@ alias cp="cp -i"
 alias mv="mv -i"
 alias rm="rm -i"
 alias ducks='du -cks * | sort -rn | head -11'
-alias g="git status"
 alias vi="mvim"
+alias g="git status -s"
+alias gdf="git diff"
+alias gds="git diff --staged"
+alias gg="git grep"
 
 # PATH
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
