@@ -5,7 +5,7 @@
 .powder
 
 # rbenv
-.rbenv-version
+.ruby-version
 
 # Vim
 *.swp
