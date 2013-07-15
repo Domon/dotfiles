@@ -24,6 +24,7 @@ alias g="git status -s"
 alias gdf="git diff"
 alias gds="git diff --staged"
 alias gg="git grep"
+alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
 
 # PATH
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
