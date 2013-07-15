@@ -35,8 +35,11 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 # Postgres.app
 export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
 
-# Node.js
+# Node.js modules
 export NODE_PATH=/usr/local/lib/node_modules
+
+# npm-installed binaries
+export PATH=/usr/local/share/npm/bin:$PATH
 
 # rbenv
 export PATH=$HOME/.rbenv/bin:$PATH
