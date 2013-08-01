@@ -1,3 +1,6 @@
+# Ctags
+tags
+
 # Pow
 .powrc
 
@@ -10,4 +13,3 @@
 
 # Vim
 *.swp
-
