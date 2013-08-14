@@ -1,5 +1,3 @@
-require 'pry'
-
 def link_file(filename)
   `ln -sv ~/.dotfiles/#{filename} ~/.#{filename}`
 end
