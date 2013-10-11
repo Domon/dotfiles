@@ -20,11 +20,20 @@ alias mv="mv -i"
 alias rm="rm -i"
 alias ducks='du -cks * | sort -rn | head -11'
 alias vi="mvim"
-alias g="git status -s"
 alias gdf="git diff"
 alias gds="git diff --staged"
 alias gg="git grep"
 alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
+
+# Functions
+unalias g
+function g() {
+  if [[ $# > 0 ]]; then
+    git $@
+  else
+    git status -s
+  fi
+}
 
 # PATH
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
