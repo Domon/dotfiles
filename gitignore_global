@@ -13,3 +13,7 @@ tags
 
 # Vim
 *.swp
+
+# Zeus
+custom_plan.rb
+zeus.json
