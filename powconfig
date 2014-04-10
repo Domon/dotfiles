@@ -1,2 +1,5 @@
 # rbenv
 export PATH="$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
+
+# Spawn 2 workers per app
+# export POW_WORKERS=2
