@@ -21,6 +21,7 @@ alias mv="mv -i"
 alias rm="rm -i"
 alias ducks='du -cks * | sort -rn | head -11'
 alias vi="mvim"
+alias vim="mvim -v"
 alias gdf="git diff"
 alias gds="git diff --staged"
 alias gg="git grep"
