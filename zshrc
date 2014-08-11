@@ -7,9 +7,10 @@ plugins=(bundler gem git heroku brew osx pow powder rails vagrant zeus zsh-synta
 source $ZSH/oh-my-zsh.sh
 
 # Zsh
-export HISTSIZE=1000000
-export SAVEHIST=1000000
-export HIST_EXPIRE_DUPS_FIRST=true  # removes duplicates when history file fills up
+HISTSIZE=1000000
+SAVEHIST=1000000
+HIST_EXPIRE_DUPS_FIRST=true  # removes duplicates when history file fills up
+REPORTTIME=1                 # report time for commands running longer than 1s
 
 # Locale
 export LANG="en_US.UTF-8"
