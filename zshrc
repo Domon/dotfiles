@@ -27,6 +27,7 @@ alias gdf="git diff"
 alias gds="git diff --staged"
 alias gg="git grep"
 alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
+alias airport="/System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport"
 
 # Functions
 unalias g
