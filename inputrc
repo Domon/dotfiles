@@ -1,0 +1,6 @@
+# set editing-mode vi
+# set keymap vi-insert
+
+set bind-tty-special-chars off
+
+Control-w: backward-kill-word
