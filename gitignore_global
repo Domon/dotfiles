@@ -4,6 +4,9 @@
 # Ctags
 tags
 
+# Mac
+.DS_Store
+
 # Pow
 .powrc
 
