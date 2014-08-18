@@ -4,6 +4,9 @@
 # Ctags
 tags
 
+# LibreOffice
+.~lock.*#
+
 # Mac
 .DS_Store
 
