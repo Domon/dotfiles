@@ -1,0 +1,5 @@
+bind "^R" em-inc-search-prev
+bind "^W" ed-delete-prev-word
+
+# Uncomment the following line to show all bindings when starting a program
+# bind
