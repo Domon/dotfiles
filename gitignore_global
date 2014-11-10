@@ -20,6 +20,9 @@ tags
 .ruby-version
 .rbenv-gemsets
 
+# Solano
+.tddium*
+
 # Vim
 *.swp
 
