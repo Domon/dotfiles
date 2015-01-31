@@ -23,6 +23,9 @@ tags
 # Solano
 .tddium*
 
+# Stellar
+stellar.yaml
+
 # Vim
 *.swp
 
