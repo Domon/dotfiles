@@ -12,3 +12,5 @@
 [user]
 	email = Dendoh@gmail.com
 	name = Chun-wei Kuo
+[heroku]
+	account = personal
