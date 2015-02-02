@@ -3,7 +3,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_CORRECTION="true"
-plugins=(bundler gem git heroku brew osx pow powder rails stellar vagrant zeus zsh-syntax-highlighting)
+plugins=(bundler gem git heroku brew osx pow powder rails stellar vagrant xcode zeus zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # Zsh
