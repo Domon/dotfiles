@@ -1,5 +1,5 @@
-def link_file(filename)
-  `ln -sv ~/.dotfiles/#{filename} ~/.#{filename}`
+def link_file(filename, destination_filename = filename)
+  `ln -sv ~/.dotfiles/#{filename} ~/.#{destination_filename}`
 end
 
 task :default => [:install]
@@ -13,6 +13,7 @@ task :install do
   link_file 'inputrc'
   link_file 'powconfig'
   link_file 'pryrc'
+  link_file 'rbenv-default-gems', 'rbenv/default-gems'
   link_file 'tmux.conf'
   link_file 'zshrc'
 end
