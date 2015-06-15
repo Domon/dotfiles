@@ -4,6 +4,12 @@
 # Ctags
 tags
 
+# Emacs
+*~
+\#*\#
+.\#*
+auto-save-list
+
 # LibreOffice
 .~lock.*#
 
