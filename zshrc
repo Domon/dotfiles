@@ -52,7 +52,7 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # Postgres.app
-export PATH=/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH
+export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
 
 # Racket executables
 export PATH=/Applications/Racket/bin:$PATH
