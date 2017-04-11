@@ -14,6 +14,7 @@ task :install do
   link_file 'powconfig'
   link_file 'pryrc'
   link_file 'rbenv-default-gems', 'rbenv/default-gems'
+  link_file 'spacemacs'
   link_file 'tmux.conf'
   link_file 'zshrc'
 end
