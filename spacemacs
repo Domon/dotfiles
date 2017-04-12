@@ -323,6 +323,7 @@ you should place your code here."
    sh-indentation 2
    vc-follow-symlinks t)
   (global-set-key (kbd "s-t") 'helm-projectile-find-file)
+  (define-key evil-normal-state-map (kbd "RET") 'spacemacs/evil-search-clear-highlight)
   (define-key evil-normal-state-map (kbd "C-a") 'evil-numbers/inc-at-pt)
   (define-key evil-normal-state-map (kbd "C-x") 'evil-numbers/dec-at-pt)
   (define-key evil-normal-state-map (kbd "C-w C-j") 'evil-window-down)
