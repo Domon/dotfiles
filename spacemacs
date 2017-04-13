@@ -38,6 +38,7 @@ values."
      ;; ----------------------------------------------------------------
      auto-completion
      ;; better-defaults
+     docker
      emacs-lisp
      git
      helm
