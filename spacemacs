@@ -318,6 +318,8 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (setq-default vc-follow-symlinks t)
   (global-set-key (kbd "s-t") 'helm-projectile-find-file)
+  (define-key evil-normal-state-map (kbd "C-a") 'evil-numbers/inc-at-pt)
+  (define-key evil-normal-state-map (kbd "C-x") 'evil-numbers/dec-at-pt)
   (define-key evil-normal-state-map (kbd "C-w C-j") 'evil-window-down)
   (define-key evil-normal-state-map (kbd "C-w C-k") 'evil-window-up)
   (define-key evil-normal-state-map (kbd "C-w C-l") 'evil-window-right)
