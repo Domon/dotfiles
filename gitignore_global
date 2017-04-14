@@ -1,6 +1,9 @@
 # Bundle
 .bundle/
 
+# Byebug
+.byebug_history
+
 # Ctags
 tags
 
@@ -9,6 +12,9 @@ tags
 \#*\#
 .\#*
 auto-save-list
+
+# IDEA
+.idea/
 
 # LibreOffice
 .~lock.*#
