@@ -50,6 +50,7 @@ values."
             shell-default-shell 'eshell
             shell-default-height 30
             shell-default-position 'bottom)
+     shell-scripts
      spell-checking
      syntax-checking
      version-control
@@ -318,6 +319,8 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (setq-default
    projectile-use-git-grep t
+   sh-basic-offset 2
+   sh-indentation 2
    vc-follow-symlinks t)
   (global-set-key (kbd "s-t") 'helm-projectile-find-file)
   (define-key evil-normal-state-map (kbd "C-a") 'evil-numbers/inc-at-pt)
