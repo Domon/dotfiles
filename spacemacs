@@ -42,6 +42,7 @@ values."
      emacs-lisp
      git
      helm
+     javascript
      markdown
      ruby
      org
