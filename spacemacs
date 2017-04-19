@@ -340,7 +340,7 @@ you should place your code here."
     (evil-define-key 'evilified neotree-mode-map (kbd "C") 'neotree-change-root)
     (evil-define-key 'evilified neotree-mode-map (kbd "ma") 'neotree-create-node)
     (evil-define-key 'evilified neotree-mode-map (kbd "md") 'neotree-delete-node)
-    (evil-define-key 'evilified neotree-mode-map (kbd "mc") 'neotree-rename-node)
+    (evil-define-key 'evilified neotree-mode-map (kbd "mm") 'neotree-rename-node)
     (evil-define-key 'evilified neotree-mode-map (kbd "mc") 'neotree-copy-node)
     (evil-define-key 'evilified neotree-mode-map (kbd "s") 'neotree-enter-vertical-split)
     (evil-define-key 'evilified neotree-mode-map (kbd "I") 'neotree-hidden-file-toggle))
