@@ -11,10 +11,10 @@
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore_global
-[user]
-	email = Dendoh@gmail.com
-	name = Chun-wei Kuo
 [heroku]
 	account = personal
 [rebase]
 	autoSquash = true
+[user]
+	email = Dendoh@gmail.com
+	name = Chun-wei Kuo
