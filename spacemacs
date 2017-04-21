@@ -333,6 +333,8 @@ you should place your code here."
   (define-key evil-normal-state-map (kbd "C-w C-k") 'evil-window-up)
   (define-key evil-normal-state-map (kbd "C-w C-l") 'evil-window-right)
   (define-key evil-normal-state-map (kbd "C-w C-h") 'evil-window-left)
+  (define-key evil-normal-state-map (kbd "C-w q") 'evil-window-delete)
+  (define-key evil-normal-state-map (kbd "C-w C-q") 'evil-window-delete)
   (define-key evil-normal-state-map (kbd "TAB") 'neotree-toggle)
   (with-eval-after-load 'neotree
     (evil-define-key 'evilified neotree-mode-map (kbd "TAB") 'neotree-toggle)
