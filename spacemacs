@@ -31,13 +31,9 @@ values."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
-     ;; ----------------------------------------------------------------
-     ;; Example of useful layers you may want to use right away.
-     ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
-     ;; <M-m f e R> (Emacs style) to install them.
-     ;; ----------------------------------------------------------------
+     ansible
      auto-completion
-     ;; better-defaults
+     csv
      docker
      emacs-lisp
      git
@@ -361,6 +357,9 @@ you should place your code here."
     (evil-define-key 'evilified neotree-mode-map (kbd "mc") 'neotree-copy-node)
     (evil-define-key 'evilified neotree-mode-map (kbd "s") 'neotree-enter-vertical-split)
     (evil-define-key 'evilified neotree-mode-map (kbd "I") 'neotree-hidden-file-toggle))
+  ;; Workaround for a bug in Spacemacs when the ansible layer is enabled
+  ;; See: https://github.com/syl20bnr/spacemacs/issues/8027.
+  (require 'ansible-doc)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
