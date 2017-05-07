@@ -335,9 +335,6 @@ you should place your code here."
   (global-set-key (kbd "s-0") 'spacemacs/persp-switch-to-0)
   (global-set-key (kbd "s-n") 'spacemacs/helm-persp-switch-project)
   ;; (global-set-key (kbd "s-S-n") 'make-frame)
-  (define-key company-active-map (kbd "C-n") 'company-select-next)
-  (define-key company-active-map (kbd "C-p") 'company-select-previous)
-  (define-key company-active-map (kbd "C-f") 'company-complete-selection)
   (define-key evil-normal-state-map (kbd "RET") 'spacemacs/evil-search-clear-highlight)
   (define-key evil-normal-state-map (kbd "C-a") 'evil-numbers/inc-at-pt)
   (define-key evil-normal-state-map (kbd "C-x") 'evil-numbers/dec-at-pt)
@@ -348,6 +345,10 @@ you should place your code here."
   (define-key evil-normal-state-map (kbd "C-w q") 'evil-window-delete)
   (define-key evil-normal-state-map (kbd "C-w C-q") 'evil-window-delete)
   (define-key evil-normal-state-map (kbd "TAB") 'neotree-toggle)
+  (with-eval-after-load 'company
+    (define-key company-active-map (kbd "C-n") 'company-select-next)
+    (define-key company-active-map (kbd "C-p") 'company-select-previous)
+    (define-key company-active-map (kbd "C-f") 'company-complete-selection))
   (with-eval-after-load 'neotree
     (evil-define-key 'evilified neotree-mode-map (kbd "TAB") 'neotree-toggle)
     (evil-define-key 'evilified neotree-mode-map (kbd "C-w l") 'evil-window-right)
