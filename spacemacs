@@ -40,6 +40,7 @@ values."
      helm
      javascript
      markdown
+     ruby-on-rails
      (ruby :variables
            ruby-enable-enh-ruby-mode t
            ruby-test-runner 'rspec
