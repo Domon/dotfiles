@@ -40,7 +40,10 @@ values."
      helm
      javascript
      markdown
-     (ruby :variables ruby-test-runner 'rspec)
+     (ruby :variables
+           ruby-enable-enh-ruby-mode t
+           ruby-test-runner 'rspec
+           ruby-version-manager 'rbenv)
      org
      osx
      (shell :variables
