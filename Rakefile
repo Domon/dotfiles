@@ -7,7 +7,9 @@ task :default => [:install]
 task :install do
   link_file 'Brewfile', 'Brewfile'
   link_file 'ctags'
+  link_file 'config.fish', '.config/fish/config.fish'
   link_file 'editrc'
+  link_file 'fishfile', '.config/fish/fishfile'
   link_file 'gemrc'
   link_file 'gitconfig'
   link_file 'gitignore_global'
