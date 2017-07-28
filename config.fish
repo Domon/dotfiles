@@ -8,9 +8,13 @@ alias vi     'mvim'
 alias vim    'mvim -v'
 
 # Abbreviations
+abbr be     'bundle exec'
+abbr bi     'bundle install --verbose'
 abbr ga     'git add'
 abbr gc     'git commit -v'
+abbr gca    'git commit --amend'
 abbr gco    'git checkout'
+abbr gcm    'git checkout master'
 abbr gd     'git diff'
 abbr gdf    'git diff'
 abbr gds    'git diff --staged'
