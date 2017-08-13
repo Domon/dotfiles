@@ -37,5 +37,9 @@ function g --wraps git --description 'git or git status'
   end
 end
 
+# Locale
+export LANG="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
+
 # My executables
 set -x PATH $HOME/bin $PATH
