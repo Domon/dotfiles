@@ -10,6 +10,7 @@ alias vim    'mvim -v'
 # Abbreviations
 abbr be     'bundle exec'
 abbr bi     'bundle install --verbose'
+abbr bil    'bundle install --verbose --local'
 abbr ga     'git add'
 abbr gc     'git commit -v'
 abbr gca    'git commit --amend'
