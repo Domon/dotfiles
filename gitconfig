@@ -11,6 +11,7 @@
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore_global
+	filemode = true
 [heroku]
 	account = personal
 [pager]
