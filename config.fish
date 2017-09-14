@@ -39,6 +39,9 @@ function g --wraps git --description 'git or git status'
   end
 end
 
+# Editor
+export EDITOR="mvim -m"
+
 # Locale
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
