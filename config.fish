@@ -2,7 +2,6 @@
 alias cp     'cp -i'
 alias mv     'mv -i'
 alias rm     'rm -i'
-alias rename 'rename -i'
 alias ducks  'du -cks * | sort -rn | head -11'
 alias vi     'mvim'
 alias vim    'mvim -v'
