@@ -38,6 +38,7 @@ values."
      emacs-lisp
      git
      helm
+     html
      javascript
      markdown
      ruby-on-rails
@@ -53,6 +54,7 @@ values."
             shell-default-position 'bottom)
      shell-scripts
      spell-checking
+     sql
      syntax-checking
      version-control
      vimscript
