@@ -48,5 +48,11 @@ export LC_ALL="en_US.UTF-8"
 # My executables
 set -x PATH $HOME/bin $PATH
 
+# Go workspace
+export GOPATH=$HOME/.go
+
+# Go-installed binaries
+set -x PATH $GOPATH/bin $PATH
+
 # iTerm2 shell integration
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
