@@ -1,3 +1,6 @@
+# Fish
+brew 'fzy'
+
 # Spacemacs
 brew 'ag'
 brew 'aspell'
