@@ -16,6 +16,11 @@ REPORTTIME=1                 # report time for commands running longer than 1s
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
+# Disable ZLE inside Emacs
+if [[ -n $INSIDE_EMACS ]]; then
+  unsetopt zle
+fi
+
 # Aliases
 alias cp="cp -i"
 alias mv="mv -i"
