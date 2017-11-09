@@ -1,10 +1,11 @@
 # Aliases
-alias cp     'cp -i'
-alias mv     'mv -i'
-alias rm     'rm -i'
-alias ducks  'du -cks * | sort -rn | head -11'
-alias vi     'mvim'
-alias vim    'mvim -v'
+alias cp      'cp -i'
+alias mv      'mv -i'
+alias rm      'rm -i'
+alias ducks   'du -cks * | sort -rn | head -11'
+alias vi      'mvim'
+alias vim     'mvim -v'
+alias vimdiff 'mvimdiff -v'
 
 # Abbreviations
 abbr be     'bundle exec'
