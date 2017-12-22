@@ -4,6 +4,7 @@ oh-my-fish/plugin-bundler
 fisherman/choices
 decors/fish-colored-man
 fisherman/docker-completion
+brgmnn/fish-docker-compose
 fisherman/done
 fisherman/free
 fisherman/fzy
