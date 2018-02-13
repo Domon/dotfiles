@@ -34,6 +34,8 @@ abbr gl     'git pull'
 abbr grbm   'git rebase -i master'
 abbr grbc   'git rebase --continue'
 abbr grt    'cd (git_repository_root)'
+abbr rc     'bundle exec rails console'
+abbr rs     'bundle exec rails server'
 
 # Functions
 function g --wraps git --description 'git or git status'
