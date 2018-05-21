@@ -9,9 +9,9 @@ alias vimdiff 'mvimdiff -v'
 
 # Abbreviations
 abbr be     'bundle exec'
-abbr bi     'bundle install --verbose'
-abbr bil    'bundle install --verbose --local'
-abbr bu     'bundle update'
+abbr bi     'bundle install --jobs 4 --verbose'
+abbr bil    'bundle install --jobs 4 --verbose --local'
+abbr bu     'bundle update --jobs 4'
 abbr dc     'docker-compose'
 abbr dcb    'docker-compose build'
 abbr dcr    'docker-compose run'
