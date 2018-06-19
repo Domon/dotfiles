@@ -14,6 +14,7 @@ task :install do
   link_file 'gitconfig'
   link_file 'gitignore_global'
   link_file 'inputrc'
+  link_file 'my.cnf', '.my.cnf'
   link_file 'powconfig'
   link_file 'pryrc'
   link_file 'rbenv-default-gems', '.rbenv/default-gems'
