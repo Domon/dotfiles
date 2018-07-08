@@ -64,3 +64,6 @@ set -x PATH $GOPATH/bin $PATH
 
 # iTerm2 shell integration
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
+# MySQL 5.6
+set -g fish_user_paths "/usr/local/opt/mysql@5.6/bin" $fish_user_paths
