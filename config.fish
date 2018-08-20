@@ -1,3 +1,5 @@
+# vi: filetype=fish
+
 # Aliases
 alias cp      'cp -i'
 alias mv      'mv -i'
