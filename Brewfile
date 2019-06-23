@@ -20,7 +20,6 @@ brew 'tig'
 # Search
 brew 'fzy'
 brew 'rg'
-brew 'z'
 
 # Shell
 brew 'fish'
