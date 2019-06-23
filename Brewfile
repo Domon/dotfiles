@@ -1,26 +1,40 @@
-# Fish
+# Cloud
+brew 'awscli'
+cask 'aws-vault'
+cask 'docker'
+
+# Cloud Storage
+cask 'google-drive-file-stream'
+cask 'onedrive'
+
+# File
+brew 'coreutils'
+brew 'rename'
+brew 'trash'
+
+# Git
+brew 'git'
+brew 'hub'
+brew 'tig'
+
+# Search
 brew 'fzy'
+brew 'rg'
+brew 'z'
+
+# Shell
+brew 'fish'
+brew 'zsh'
 
 # Spacemacs
 brew 'ag'
 brew 'aspell'
-brew 'global', args: ['with-ctags', 'with-pygment']
 
-brew 'awscli'
+# Others
 brew 'colordiff'
-brew 'coreutils'
 brew 'ctags'
 brew 'jq'
-brew 'hub'
 brew 'mtr'
-brew 'rename'
-brew 'tig'
 brew 'wget'
-brew 'z'
-brew 'zsh'
 
-cask 'aws-vault'
-cask 'docker'
-cask 'google-backup-and-sync'
-cask 'gpgtools'
-cask 'onedrive'
+cask 'gpg-suite'
