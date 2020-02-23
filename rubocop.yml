@@ -1,5 +1,18 @@
+AllCops:
+  TargetRubyVersion: 2.6
+
+Layout/AlignHash:
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
+
 Metrics/LineLength:
-  Max: 100
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/RescueModifier:
+  Enabled: false
 
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: comma
