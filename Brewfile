@@ -17,9 +17,15 @@ brew 'git'
 brew 'hub'
 brew 'tig'
 
+# Instant Messaging
+mas 'telegram'
+
 # Search
 brew 'fzy'
 brew 'rg'
+
+# Security
+cask 'gpg-suite'
 
 # Shell
 brew 'fish'
@@ -35,5 +41,3 @@ brew 'ctags'
 brew 'jq'
 brew 'mtr'
 brew 'wget'
-
-cask 'gpg-suite'
