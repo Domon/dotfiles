@@ -11,6 +11,7 @@ task :install do
   link_file 'editrc'
   link_file 'fishfile', '.config/fish/fishfile'
   link_file 'gemrc'
+  link_file 'gitattributes'
   link_file 'gitconfig'
   link_file 'gitignore_global'
   link_file 'inputrc'

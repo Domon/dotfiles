@@ -9,6 +9,7 @@
 [commit]
 	gpgsign = true
 [core]
+	attributesfile = ~/.gitattributes
 	editor = vim
 	excludesfile = ~/.gitignore_global
 	filemode = true
