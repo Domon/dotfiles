@@ -27,7 +27,7 @@ abbr gb     'git branch'
 abbr gc     'git commit -v'
 abbr gca    'git commit -av'
 abbr gco    'git checkout'
-abbr gcm    'git checkout master'
+abbr gcm    'git checkout (git_default_branch_name)'
 abbr gcl    'git clone'
 abbr gd     'git diff'
 abbr gdf    'git diff'
@@ -38,7 +38,7 @@ abbr gg     'git grep'
 abbr ggpush 'git push origin (git_branch_name)'
 abbr ggs    'git-grep-sed'
 abbr gl     'git pull'
-abbr grbm   'git rebase -i master'
+abbr grbm   'git rebase -i (git_default_branch_name)'
 abbr grbc   'git rebase --continue'
 abbr grt    'cd (git_repository_root)'
 abbr rc     'bin/rails console'
@@ -51,6 +51,11 @@ function g --wraps git --description 'git or git status'
   else
     git status -s
   end
+end
+
+function git_default_branch_name --description 'Get the default branch name of the current git repository'
+  # Run `git remote set-head origin --auto` if the output is incorrect
+  git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@'
 end
 
 # Editor
