@@ -68,6 +68,9 @@ export LC_ALL="en_US.UTF-8"
 # My executables
 set -x PATH $HOME/bin $PATH
 
+# Doom Emacs
+set -x PATH $HOME/.emacs.d/bin $PATH
+
 # Go workspace
 export GOPATH=$HOME/.go
 
