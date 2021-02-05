@@ -10,7 +10,6 @@ fisherman/getopts
 fisherman/git_util
 oh-my-fish/plugin-gityaw
 oh-my-fish/plugin-osx
-fisherman/pyenv
 fisherman/rbenv
 fisherman/spin
 oh-my-fish/plugin-tab
