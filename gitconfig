@@ -26,3 +26,5 @@
 [user]
 	email = Dendoh@gmail.com
 	name = Chun-wei Kuo
+[pull]
+	ff = only
