@@ -15,10 +15,14 @@
 	filemode = true
 [heroku]
 	account = personal
+[merge]
+	ff = false
 [pager]
 	log = diff-highlight | less
 	show = diff-highlight | less
 	diff = diff-highlight | less
+[pull]
+	ff = only
 [push]
 	default = simple
 [rebase]
@@ -26,5 +30,3 @@
 [user]
 	email = Dendoh@gmail.com
 	name = Chun-wei Kuo
-[pull]
-	ff = only
