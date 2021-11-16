@@ -1,3 +1,4 @@
+jorgebucaran/fisher
 fisherman/anicode
 edc/bass
 oh-my-fish/plugin-brew
@@ -7,7 +8,6 @@ decors/fish-colored-man
 brgmnn/fish-docker-compose
 fisherman/done
 fisherman/getopts
-fisherman/git_util
 oh-my-fish/plugin-gityaw
 oh-my-fish/plugin-osx
 fisherman/rbenv
@@ -15,5 +15,5 @@ fisherman/spin
 oh-my-fish/plugin-tab
 oh-my-fish/plugin-title
 fisherman/z
-rafaelrinaldi/pure
 Domon/fzy@before-directory-lookup
+pure-fish/pure
