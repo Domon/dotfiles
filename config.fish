@@ -35,7 +35,7 @@ abbr gds    'git diff --staged'
 abbr gdfw   'git diff --color-words'
 abbr gdsw   'git diff --staged --color-words'
 abbr gg     'git grep'
-abbr ggpush 'git push origin (git_branch_name)'
+abbr ggpush 'git push origin (git_current_branch_name)'
 abbr ggs    'git-grep-sed'
 abbr gl     'git pull'
 abbr grbm   'git rebase -i (git_default_branch_name)'
@@ -56,6 +56,14 @@ end
 function git_default_branch_name --description 'Get the default branch name of the current git repository'
   # Run `git remote set-head origin --auto` if the output is incorrect
   git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@'
+end
+
+function git_current_branch_name --description 'Get the current branch name'
+  git symbolic-ref --short HEAD 2>/dev/null
+end
+
+function git_repository_root --description 'Get the root path of the current git repository'
+  git rev-parse --show-toplevel
 end
 
 # Editor
