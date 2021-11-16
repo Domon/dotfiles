@@ -76,6 +76,9 @@ export LC_ALL="en_US.UTF-8"
 # My executables
 set -x PATH $HOME/bin $PATH
 
+# AWS Vault
+export AWS_VAULT_BACKEND=pass
+
 # Doom Emacs
 set -x PATH $HOME/.emacs.d/bin $PATH
 
