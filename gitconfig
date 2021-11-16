@@ -13,8 +13,8 @@
 	editor = vim
 	excludesfile = ~/.gitignore_global
 	filemode = true
-[heroku]
-	account = personal
+[init]
+	defaultBranch = main
 [merge]
 	ff = false
 [pager]
@@ -28,5 +28,6 @@
 [rebase]
 	autoSquash = true
 [user]
-	email = Dendoh@gmail.com
 	name = Chun-wei Kuo
+[include]
+	path = .gitconfig_private
