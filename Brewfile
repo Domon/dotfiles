@@ -12,6 +12,12 @@ brew 'coreutils'
 brew 'rename'
 brew 'trash'
 
+# Fonts
+cask 'font-anonymous-pro'
+cask 'font-fira-code-nerd-font'
+cask 'font-noto-sans-cjk'
+cask 'font-noto-serif-cjk'
+
 # Git
 brew 'git'
 brew 'hub'
