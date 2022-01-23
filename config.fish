@@ -66,6 +66,16 @@ function git_repository_root --description 'Get the root path of the current git
   git rev-parse --show-toplevel
 end
 
+function txz --description 'Create a txz file from a directory'
+  if test (count $argv) -eq 1
+    set -l dir (string replace --regex '/+$' '' $argv[1])
+
+    tar -cf - $dir | pv --size (math (env BLOCKSIZE=1024 du -s $dir | cut -f1) '*' 1024) --progress --timer --rate --bytes | xz --threads=0 > $dir.txz
+  else
+    echo 'Usage: txz DIRECTORY'
+  end
+end
+
 # Editor
 export EDITOR="mvim -m"
 
