@@ -43,7 +43,7 @@ abbr grbc   'git rebase --continue'
 abbr grt    'cd (git_repository_root)'
 abbr rc     'bin/rails console'
 abbr rs     'bin/rails server'
-abbr yt     'yt-dlp --output "%(channel,uploader)s/%(release_date>%Y-%m-%d,upload_date>%Y-%m-%d)s %(title)s/%(title)s-%(id)s.%(ext)s" --compat-options filename,format-spec,multistreams --console-title --verbose --all-subs --write-annotations --write-description --write-info-json --write-thumbnail'
+abbr yt     'yt-dlp --output "%(channel,uploader)s/%(release_date>%Y-%m-%d,upload_date>%Y-%m-%d)s %(title)s/%(title)s-%(id)s.%(ext)s" --compat-options filename,format-spec,multistreams --console-title --verbose --all-subs --write-annotations --write-comments --write-description --write-info-json --write-thumbnail'
 
 # Functions
 function g --wraps git --description 'git or git status'
