@@ -46,6 +46,15 @@ abbr rs     'bin/rails server'
 abbr yt     'yt-dlp --output "%(channel,uploader)s/%(release_date>%Y-%m-%d,upload_date>%Y-%m-%d)s %(title)s/%(title)s-%(id)s.%(ext)s" --compat-options filename,format-spec,multistreams --console-title --verbose --all-subs --write-annotations --write-comments --write-description --write-info-json --write-thumbnail'
 
 # Functions
+function eg --description 'Convert images to HEIC and open them with Eagle'
+  for original_path in $argv
+    set --local heic_path (path change-extension heic $original_path)
+
+    convert $original_path $heic_path
+    open -a /Applications/Eagle.app $heic_path
+  end
+end
+
 function g --wraps git --description 'git or git status'
   if count $argv > /dev/null
     git $argv
