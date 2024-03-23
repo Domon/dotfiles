@@ -43,7 +43,8 @@ abbr grbc   'git rebase --continue'
 abbr grt    'cd (git_repository_root)'
 abbr rc     'bin/rails console'
 abbr rs     'bin/rails server'
-abbr yt     'yt-dlp --output "%(channel,uploader)s/%(release_date>%Y-%m-%d,upload_date>%Y-%m-%d)s %(title)s/%(title)s-%(id)s.%(ext)s" --compat-options filename,format-spec,multistreams --console-title --verbose --all-subs --write-annotations --write-comments --write-description --write-info-json --write-thumbnail'
+# abbr trash  'command trash -v'
+abbr yt     'yt-dlp --output "%(channel,uploader)s/%(release_date>%Y-%m-%d,upload_date>%Y-%m-%d)s %(title).140s/%(title).140s-%(id)s.%(ext)s" --compat-options filename,format-spec,multistreams --console-title --verbose --all-subs --write-annotations --write-comments --write-description --write-info-json --write-thumbnail'
 
 # Functions
 function eg --description 'Convert images to HEIC and open them with Eagle'
@@ -107,6 +108,10 @@ export GOPATH=$HOME/.go
 
 # Go-installed binaries
 set -x PATH $GOPATH/bin $PATH
+
+# Homebrew
+fish_add_path /opt/homebrew/bin
+fish_add_path /opt/homebrew/sbin
 
 # iTerm2 shell integration
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
