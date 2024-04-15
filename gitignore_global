@@ -41,6 +41,7 @@ stellar.yaml
 
 # Vim
 *.swp
+*.swo
 
 # Zeus
 custom_plan.rb
