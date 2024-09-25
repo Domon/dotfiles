@@ -51,7 +51,7 @@ function eg --description 'Convert images to HEIC and open them with Eagle'
   for original_path in $argv
     set --local heic_path (path change-extension heic $original_path)
 
-    convert $original_path $heic_path
+    magick $original_path $heic_path
     open -a /Applications/Eagle.app $heic_path
   end
 end
