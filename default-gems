@@ -3,3 +3,4 @@ foreman
 gem-ctags
 pry
 powder
+ruby-lsp
