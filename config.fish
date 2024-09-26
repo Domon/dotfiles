@@ -116,5 +116,8 @@ fish_add_path /opt/homebrew/sbin
 # iTerm2 shell integration
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
+# mise
+test -e {$HOME}/.local/bin/mise; and {$HOME}/.local/bin/mise activate fish | source
+
 # MySQL 5.6
 set -g fish_user_paths "/usr/local/opt/mysql@5.6/bin" $fish_user_paths
