@@ -13,14 +13,11 @@
 	editor = vim
 	excludesfile = ~/.gitignore_global
 	filemode = true
+	pager = delta
 [init]
 	defaultBranch = main
 [merge]
 	ff = false
-[pager]
-	log = diff-highlight | less
-	show = diff-highlight | less
-	diff = diff-highlight | less
 [pull]
 	ff = only
 [push]
