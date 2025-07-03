@@ -1,0 +1,7 @@
+# Wrap long lines in pager views
+set wrap-lines = yes
+
+# Use diff-highlight
+set diff-highlight = /opt/homebrew/opt/git/share/git-core/contrib/diff-highlight/diff-highlight
+
+set split-view-width = 70%

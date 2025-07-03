@@ -22,6 +22,7 @@ task :install do
   link_file 'default-gems', '.default-gems'
   link_file 'rubocop.yml'
   link_file 'spacemacs'
+  link_file 'tigrc'
   link_file 'tmux.conf'
   link_file 'zshrc'
 end
