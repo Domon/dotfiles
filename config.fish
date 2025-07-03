@@ -1,6 +1,7 @@
 # vi: filetype=fish
 
 # Aliases
+alias claude  "$HOME/.claude/local/claude"
 alias cp      'cp -i'
 alias mv      'mv -i'
 alias rm      'rm -i'
