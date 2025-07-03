@@ -9,6 +9,7 @@ alias ducks   'du -cks * | sort -rn | head -11'
 alias vi      'mvim'
 alias vim     'mvim -v'
 alias vimdiff 'mvimdiff -v'
+alias nv      'neovide --fork'
 
 # Abbreviations
 abbr be     'bundle exec'
