@@ -97,7 +97,7 @@ function txz --description 'Create a txz file from a directory'
 end
 
 # Editor
-export EDITOR="mvim -m"
+export EDITOR="mvim -v"
 
 # Locale
 export LANG="en_US.UTF-8"
