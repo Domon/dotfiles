@@ -53,7 +53,7 @@ abbr rc     'bin/rails console'
 abbr rs     'bin/rails server'
 abbr rsp    'bundle exec rspec'
 # abbr trash  'command trash -v'
-abbr yt     'yt-dlp --output "%(channel,uploader)s/%(release_date>%Y-%m-%d,upload_date>%Y-%m-%d)s %(title).100s/%(title).100s-%(id)s.%(ext)s" --compat-options filename,format-spec,multistreams --console-title --verbose --all-subs --write-annotations --write-comments --write-description --write-info-json --write-thumbnail'
+abbr yt     'yt-dlp --output "%(channel,uploader)s/%(release_date>%Y-%m-%d,upload_date>%Y-%m-%d)s %(title).100s/%(title).100s-%(id)s.%(ext)s" --compat-options filename,format-spec,multistreams --console-title --verbose --all-subs --write-comments --write-description --write-info-json --write-thumbnail'
 
 # Functions
 function eg --description 'Convert images to HEIC and open them with Eagle'
