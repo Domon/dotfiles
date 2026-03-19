@@ -16,6 +16,11 @@
 	pager = delta
 [init]
 	defaultBranch = main
+[diff]
+        algorithm = histogram
+        colorMoved = plain
+        mnemonicPrefix = true
+        renames = copies
 [merge]
 	ff = false
 [pull]
