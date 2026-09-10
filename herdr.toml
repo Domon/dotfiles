@@ -1,0 +1,19 @@
+onboarding = false
+[keys]
+prefix = "ctrl+a"
+
+[[keys.command]]
+key = "prefix+a"
+type = "shell"
+command = "\"$HERDR_BIN_PATH\" pane send-keys \"$HERDR_ACTIVE_PANE_ID\" ctrl+a"
+description = "send ctrl+a to focused pane"
+
+[ui]
+show_agent_labels_on_pane_borders = true
+
+[ui.toast]
+delivery = "off"
+
+[theme]
+name = "tokyo-night"
+auto_switch = false
