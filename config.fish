@@ -5,7 +5,7 @@ alias claude  "$HOME/.claude/local/claude"
 alias cp      'cp -i'
 alias mv      'mv -i'
 alias rm      'rm -i'
-alias ducks   'du -cks * | sort -rn | head -11'
+alias ducks   'du -cks * | sort -rn | head -21'
 alias vi      'mvim'
 alias vim     'mvim -v'
 alias vimdiff 'mvimdiff -v'
