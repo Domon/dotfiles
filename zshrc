@@ -25,7 +25,8 @@ fi
 alias cp="cp -i"
 alias mv="mv -i"
 alias rm="rm -i"
-alias ducks='du -cks * | sort -rn | head -11'
+alias ducks='du -cks * | sort -rn | head -21'
+alias duchs='du -chs * | sort -rh | head -21'
 alias vi="mvim"
 alias vim="mvim -v"
 alias gdf="git diff"
@@ -86,3 +87,8 @@ export PATH=$HOME/bin:$PATH
 
 # z
 . `brew --prefix`/etc/profile.d/z.sh
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/domon/.lmstudio/bin"
+# End of LM Studio CLI section
+
